@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>organic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__wrapper">
+        <a class="logo" href="index.html">Organick</a>
+        <button class="menu-open">
+          <span class="menu-open__line"></span>
+          <span class="menu-open__line"></span>
+          <span class="menu-open__line"></span>
+        </button>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="index.html">Home</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="about.html">About</a>
+            </li>
+            <li class="menu__item menu__dropdown-open">Pages
+              <button class="menu__button-dropdown">
+                <svg width="8" height="6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M.791 1.5l3 3 3-3" stroke="#274C5B" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </button>
+              <ul class="menu__dropdown visually-hidden">
+                <li class="menu__dropdown-list">
+                  <a class="menu__dropdown-link" href="style.html">Style Guide</a>
+                </li>
+                <li class="menu__dropdown-list">
+                  <a class="menu__dropdown-link" href="404.html">404 Not Found</a>
+                </li>
+                <li class="menu__dropdown-list">
+                  <a class="menu__dropdown-link" href="password.html">Password Protected</a>
+                </li>
+                <li class="menu__dropdown-list">
+                  <a class="menu__dropdown-link" href="licences.html">Licences</a>
+                </li>
+                <li class="menu__dropdown-list">
+                  <a class="menu__dropdown-link" href="changelog.html">Changelog</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="shop.html">Shop</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="services.html">Services</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="news.html">News</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__right">
+          <form class="form-search">
+            <label class="visually-hidden" for="search-input">Поиск по сайту</label>
+            <input class="form-search__input" id="search-input" type="text">
+            <button class="form-search__button" type="button"></button>
+          </form>
+          <button class="cart-button" >Cart (<span class="cart-value">0</span>)
+          </button>
+          <div class="cart ">
+            <div class="cart__header">
+              <button class="cart__close-btn">close</button>
+              <span>Name</span>
+              
+              <span>Count</span>
+              <span>Cost</span>
+            </div>
+            <div class="cart__cards">
+              
+            </div>
+            <div class="cart__final-cost">
+              <span>Cost: <span>0</span></span>
+            </div>
+            <button class="cart__button">Buy</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="shop-header page-title">
+        <h1 class="shop-header__title page-title__title">Shop</h1>
+      </section>
+      <div class="container">
+        <div class="categories__cards shop__cards">
+         
+        </div>
+      </div>
+      <section class="subscribe">
+        <div class="container">
+          <div class="subscribe__inner">
+            <h2 class="subscribe__title">Subscribe to
+              our Newsletter
+            </h2>
+            <form class="subscribe__form">
+              <label class="visually-hidden" for="subscribe__input">Tab to subscribe</label>
+              <input class="subscribe__input" id="subscribe__input" type="text" placeholder="Your Email Address">
+              <button class="button">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-contact">
+            <h5 class="footer-contact__title">Contact Us</h5>
+            <ul class="footer-contact__list">
+              <li class="footer-contact__item-name">Email</li>
+              <li class="footer-contact__item">needhelp@Organia.com</li>
+              <li class="footer-contact__item-name">Phone</li>
+              <li class="footer-contact__item">666 888 888</li>
+              <li class="footer-contact__item-name">Address</li>
+              <li class="footer-contact__item">88 road, borklyn street, USA</li>
+            </ul>
+          </div>
+          <div class="footer-socials">
+            <div class="footer-logo">
+              <a class="logo" href="#">Organick</a>
+            </div>
+            <p>Simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum simply dummy text of the printing
+            </p>
+            <div class="footer-socials__socials">
+              <a class="footer-socials__link" href="#">
+                <img src="images/dist/Insta.svg" alt="">
+              </a>
+              <a class="footer-socials__link" href="#">
+                <img src="images/dist/facebook.svg" alt="">
+              </a>
+              <a class="footer-socials__link" href="#">
+                <img src="images/dist/twitter.svg" alt=""></a>
+              <a class="footer-socials__link" href="#">
+                <img src="images/dist/pintrest.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="footer-pages">
+            <h5 class="footer-pages__title">Utility Pages</h5>
+            <ul class="footer-pages__list">
+              <li class="footer-pzges__item">
+                <a class="footer-paged__link" href="#">Style Guide</a>
+              </li>
+              <li class="footer-pzges__item">
+                <a class="footer-paged__link" href="#">404 Not Found</a>
+              </li>
+              <li class="footer-pzges__item">
+                <a class="footer-paged__link" href="#">Password Protected</a>
+              </li>
+              <li class="footer-pzges__item">
+                <a class="footer-paged__link" href="#">Licences</a>
+              </li>
+              <li class="footer-pzges__item">
+                <a class="footer-paged__link" href="#">Changelog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copy">
+        <a href="#">Copyright © <strong>Organick</strong></a>
+      </div>
+    </footer>
+  </div>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="../js/main.js" type="module"></script>
+</body>
+
+</html>
