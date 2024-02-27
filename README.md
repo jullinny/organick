@@ -1,9 +1,14 @@
 Многостраничный сайт "Organick".
-![Image alt](https://https://github.com/jullinny/organick/blob/main/images/dist/readme-img.jpg)
+![Image alt](https://github.com/jullinny/organick/blob/main/images/dist/readme-img.jpg)
 
 Применялись: scss, сборка Gulp.
+
 Макет был только для десктопной версии, адаптив сделала на свой вкус и цвет.
+
 Использовала json данные для генерации карточек товаров (чтобы приблизительно понять, как работать с данными, поступающими с сервера).
+
 Сделала попытку оформить корзину товаров, но надо подтянуть знания по js для адекватной реализации.
+
 Также использовала slick-carousel.
+
 Применила новый для себя стиль hover.
